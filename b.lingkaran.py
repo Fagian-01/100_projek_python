@@ -20,6 +20,6 @@ luas_lingkaran = lambda r : r ** 2 * PHI
 '''rumus menghitung keliling lingkaran'''
 keliling_lingkaran = lambda r : 2 * PHI * r
 
-r = input_user
+r = input_user()
 print(f'hasil perhitungan luas lingkaran = {luas_lingkaran(r)}')
-print(f'hasil perhitungan keliling lingkaran= {keliling_lingkaran(r)}')
+print(f'hasil perhitungan keliling lingkaran = {keliling_lingkaran(r)}')
